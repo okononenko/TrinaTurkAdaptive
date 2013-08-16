@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- css3-mediaqueries.js for IE less than 9 -->
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/MyFontsWebfontsKit.css">
+    <script src="js/lib/jquery-1.10.1.min.js"></script>
+    <script src="js/Speroteck/mainScript.js"></script>
+    <title>TrinaTurk</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!--header-->
+        <div class="header">
+            <img class="menu_mobile" src="images/menu_button_320.png" alt="menu"/>
+            <img class="header_mr_turk_logo" src="images/mr_turk_logo.png" alt="mr_turk"/>
+            <img class="header_trina_turk_logo" src="images/header_logo.png" alt="trina_turk_logo"/>
+
+            <!--user account block-->
+            <div class="account">
+                <span class="user_login"><a href="#">login</a></span>
+                <span class="bag"><a href="#">my bag</a></span>
+                <div class="user_mobile">
+                    <a href="#"><img class="bag_mobile" src="images/bag_image.png" alt="bag"/>
+                    <span class="bag_product_count_mobile">0</span></a>
+                </div>
+            </div>
+            <!--end user account block-->
+
+            <div class="clear"></div><!--clearing float-->
+
+            <!--header navigation-->
+            <div class="nav_block">
+                <ul class="header_navigation">
+                    <li><a href="#">new</a></li>
+                    <li><a href="#">clothing</a></li>
+                    <li><a href="#">swim</a></li>
+                    <li><a href="#">shoes & accessories</a></li>
+                    <li><a href="#">decor</a></li>
+                    <li><a href="#">trina life</a></li>
+                    <li><a href="#"><img src="images/search_icon.png" alt="search_button"/></a></li>
+                </ul>
+            </div>
+            <!--end header navigation-->
+        </div>
+        <!--end header-->
+
+        <!--content-->
+        <div class="content">
+
+            <!--product-->
+            <div class="product">
+                <!--product images-->
+                <div class="product_images">
+                    <ul class="product_small_images">
+                        <li><img class="selectable_small_images" src="images/product/product_small_image.gif" alt="product small"/></li>
+                        <li><img class="selectable_small_images" src="images/product/product_small_image.gif" alt="product small"/></li>
+                        <li><img class="selectable_small_images" src="images/product/product_small_image.gif" alt="product small"/></li>
+                    </ul>
+                    <img class="product_image" src="images/product/product_main_image.gif" alt="product image"/>
+                </div>
+                <!--end product images-->
+
+                <!--product info-->
+                <div class="product_info">
+
+                    <!--name_price-->
+                    <div class="name_price">
+                        <span class="product_name">everet dress</span> <br />
+                        <span class="product_short_description">Nice dress</span> <br />
+                        <span class="product_price">$ 165.00</span>
+                    </div>
+                    <!--end name_price-->
+
+                    <!--sizes-->
+                    <div class="sizes">
+                        <form action="#" method="get">
+                            <span class="info_tab select_size_tab">select size:</span>
+                            <span class="link_tab size_chart"><a href="#">size chart</a></span>
+                            <ul class="select_size">
+                                <li>
+                                    <input class="select_size_radio" type="radio" name="size" value="0"/>
+                                    <img src="images/circle.png" alt="circle" />
+                                    <span>0</span>
+                                </li>
+                                <li>
+                                    <input class="select_size_radio" type="radio" name="size" value="1"/>
+                                    <img src="images/circle.png" alt="circle" />
+                                    <span>1</span>
+                                </li>
+                                <li>
+                                    <input class="select_size_radio" type="radio" name="size" value="2"/>
+                                    <img src="images/circle.png" alt="circle" />
+                                    <span>2</span>
+                                </li>
+                                <li>
+                                    <input class="select_size_radio" type="radio" name="size" value="4"/>
+                                    <img src="images/circle.png" alt="circle" />
+                                    <span>4</span>
+                                </li>
+                                <li>
+                                    <input class="select_size_radio" type="radio" name="size" value="6"/>
+                                    <img src="images/circle.png" alt="circle" />
+                                    <span>6</span>
+                                </li>
+                                <li>
+                                    <input class="select_size_radio" type="radio" name="size" value="8"/>
+                                    <img src="images/circle.png" alt="circle" />
+                                    <span>8</span>
+                                </li>
+                                <li>
+                                    <input class="select_size_radio" type="radio" name="size" value="10"/>
+                                    <img src="images/circle.png" alt="circle" />
+                                    <span>10</span>
+                                </li>
+                                <li>
+                                    <input class="select_size_radio" type="radio" name="size" value="12"/>
+                                    <img src="images/circle.png" alt="circle" />
+                                    <span>12</span>
+                                </li>
+                                <li>
+                                    <input class="select_size_radio" type="radio" name="size" value="14"/>
+                                    <img src="images/circle.png" alt="circle" />
+                                    <span>14</span>
+                                </li>
+                            </ul>
+                            <input type="submit" name="add to bag" value="add to bag"/>
+                            <div class="add_to_wishlist">
+                                <span class="link_tab"><a href="#">add to wishlist</a></span>
+                            </div>
+                        </form>
+                    </div>
+                    <!--end sizes-->
+
+                    <!--colors-->
+                    <div class="colors">
+                        <span class="info_tab">other colors:</span>
+                        <ul>
+                            <li><img class="selectable_color" src="images/product/product_color.gif" alt="color"/></li>
+                            <li><img class="selectable_color" src="images/product/product_color.gif" alt="color"/></li>
+                            <li><img class="selectable_color" src="images/product/product_color.gif" alt="color"/></li>
+                            <li><img class="selectable_color" src="images/product/product_color.gif" alt="color"/></li>
+                        </ul>
+                    </div>
+                    <!--end colors-->
+
+                    <!--details block-->
+                    <div class="details_block">
+                        <div class="details">
+                            <span class="link_tab details_description">details & fit</span>
+                            <span class="list_slide_button">+</span>
+                            <div class="details_content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                    laborum.</p>
+                            </div>
+                        </div>
+                        <div class="details">
+                            <span class="link_tab">fabric & care</span>
+                            <span class="list_slide_button">+</span>
+                            <div class="details_content">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                                    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                    laborum.</p>
+                            </div>
+                        </div>
+                        <div class="rating_block">
+                            <form action="#" method="get">
+                                <span class="info_tab overall_rating">overall rating:</span>
+                                <ul>
+                                    <li><input class="rating" type="radio" name="rating" value="1"/></li>
+                                    <li><input class="rating" type="radio" name="rating" value="2"/></li>
+                                    <li><input class="rating" type="radio" name="rating" value="3"/></li>
+                                    <li><input class="rating" type="radio" name="rating" value="4"/></li>
+                                    <li><input class="rating" type="radio" name="rating" value="5"/></li>
+                                </ul>
+                                <span class="rate_value">0/5</span>
+                                <div class="clear"></div><!--clearing float-->
+                                <div class="review">
+                                    <span class="link_tab read_review"><a href="#">read reviews</a></span>
+                                    <span class="link_tab write_review"><a href="#">write a review</a></span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!--end details block-->
+                </div>
+                <!--end product info-->
+            </div>
+            <!--end product-->
+
+            <div class="clear"></div><!--clearing float-->
+
+            <!--similar product-->
+            <div class="similar_product">
+                <span class="similar_title">complete this look</span>
+                <ul>
+                    <li><img class="selectable_similar" src="images/product/similar_product.gif" alt="similar_product"/></li>
+                    <li><img class="selectable_similar" src="images/product/similar_product.gif" alt="similar_product"/></li>
+                    <li><img class="selectable_similar" src="images/product/similar_product.gif" alt="similar_product"/></li>
+                </ul>
+            </div>
+            <!--end similar product-->
+
+            <!--similar product-->
+            <div class="similar_product">
+                <span class="similar_title">you might also like</span>
+                <ul>
+                    <li><img class="selectable_similar" src="images/product/similar_product.gif" alt="similar_product"/></li>
+                    <li><img class="selectable_similar" src="images/product/similar_product.gif" alt="similar_product"/></li>
+                    <li><img class="selectable_similar" src="images/product/similar_product.gif" alt="similar_product"/></li>
+                </ul>
+            </div>
+            <!--end similar product-->
+
+            <!--reviews-->
+            <div class="reviews">
+                <div class="details">
+                    <span class="link_tab details_description">reviews</span>
+                    <img class="list_slide_button" src="images/slide_arrow.gif" alt="arrow" />
+                    <div class="details_content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum.</p>
+                    </div>
+                </div>
+            </div>
+            <!--end reviews-->
+        </div>
+        <!--end content-->
+
+        <!--footer-->
+        <div class="footer">
+            <!--footer logo-->
+            <div class="footer_logo">
+                <img src="images/footer_logo.png" alt="logo"/>
+            </div>
+            <!--footer logo-->
+
+            <!--footer social links-->
+            <ul class="footer_social_links">
+                <li><a href="#"><img src="images/footer_social_1.png" alt="social_link_1"/></a></li>
+                <li><a href="#"><img src="images/footer_social_2.png" alt="social_link_2"/></a></li>
+                <li><a href="#"><img src="images/footer_social_3.png" alt="social_link_3"/></a></li>
+                <li><a href="#"><img src="images/footer_social_4.png" alt="social_link_4"/></a></li>
+                <li><a href="#"><img src="images/footer_social_5.png" alt="social_link_5"/></a></li>
+                <li><a href="#"><img src="images/footer_social_6.png" alt="social_link_6"/></a></li>
+            </ul>
+            <!--footer social links-->
+
+            <div class="clear"></div><!--clearing float-->
+
+            <!--footer navigation-->
+            <div class="footer_navigation">
+                <ul>
+                    <li><a href="#">where to buy</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">careers</a></li>
+                    <li><a href="#">customer care</a></li>
+                    <li><a href="#">security & privacy</a></li>
+                    <li><a href="#">my account</a></li>
+                    <li><a href="#">gift cards</a></li>
+                    <li><a href="#">retailer login</a></li>
+                </ul>
+            </div>
+            <!--end footer navigation-->
+
+            <div class="clear"></div><!--clearing float-->
+
+            <!--copyrights-->
+            <div class="footer_turk_logo">
+                <img src="images/mr_turk_logo.png" alt="mr_turk"/>
+            </div>
+
+            <div class="clear"></div><!--clearing float-->
+
+            <div class="copyrights">
+                <span>&copy; 2013 trina turk</span>
+            </div>
+            <!--end copyrights-->
+        </div>
+        <!--end footer-->
+
+    </div><!--wrapper-->
+</body>
+</html>

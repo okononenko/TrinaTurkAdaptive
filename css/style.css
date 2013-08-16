@@ -1,0 +1,1173 @@
+/*TrinaTurk styles*/
+
+/*adding reset styles*/
+@import url("reset.css");
+
+/*general styles
+--------------------------------------------------*/
+body {
+    font: 12px/18px Novecentowide-Normal, Arial, "sans serif";
+    width: 100%;
+    letter-spacing: normal;
+    text-transform: uppercase;
+}
+
+a {
+    color: #231f20;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-family: Nexa-Light;
+    font-size: 13px;
+    color: #040404;
+}
+
+img {
+    border: none;
+}
+
+.info_tab {
+    font-family: NexaRegular;
+    font-size: 12px;
+    color: #000;
+}
+
+.link_tab {
+    font-family: Novecentowide-DemiBold;
+    font-size: 12px;
+    color: #000;
+}
+
+.info_tab, .link_tab a {
+    font-weight: normal;
+}
+
+.info_tab, .link_tab a:hover {
+    text-decoration: none;
+}
+
+.selectable_small_images, .selectable_color, .selectable_similar {
+    opacity: 0.5;
+}
+
+.clear {
+    clear: both;
+}
+
+/*styles for desktops min 1280px
+--------------------------------------------------*/
+
+@media screen and (min-width: 1280px) {
+
+
+    .wrapper {
+        width: 1280px;
+        margin: 0 auto;
+    }
+
+    /*header
+    --------------------------------------------------*/
+
+    .header {
+        width: 1280px;
+        height: 141px;
+    }
+
+    .header_mr_turk_logo {
+        margin: 30px 0 0 42px;
+        float: left;
+    }
+
+    .header_trina_turk_logo {
+        margin: 33px 0 0 397px;
+        float: left;
+    }
+
+    .menu_mobile {
+        display: none;
+    }
+
+    .account {
+        float: right;
+        margin: 35px 40px 0 0;
+    }
+
+    .account span {
+        padding-left: 28px;
+    }
+
+    .user_mobile {
+        display: none;
+    }
+
+    /*header navigation*/
+    .header_navigation {
+        margin: 33px 0 0 290px;
+        position: absolute;
+    }
+
+    .header_navigation li {
+        float: left;
+        padding-right: 45px;
+    }
+
+    /*content
+    --------------------------------------------------*/
+    /*product*/
+    .product {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    /*product images*/
+    .product_images {
+        width: 920px;
+        float: left;
+    }
+
+    .product_small_images {
+        margin: 10px 0;
+        float: left;
+    }
+
+    .product_small_images li {
+        margin-top: 20px;
+    }
+
+    .product_small_images li img{
+        width: 79px;
+    }
+
+    /*.product_image*/
+    .product_image {
+        margin-left: 163px;
+        width: 515px;
+    }
+
+    /*product info*/
+    .product_info {
+        width: 280px;
+        float: right;
+    }
+
+    .name_price {
+        margin: 35px 0;
+    }
+
+    .product_name {
+        font-family: Novecentowide-Medium;
+        font-size: 18px;
+    }
+
+    .product_short_description {
+        font-family: NexaRegular;
+        font-size: 10px;
+    }
+
+    .product_price {
+        font-family: Novecentowide-Medium;
+        font-size: 18px;
+        position: relative;
+        top: 15px;
+    }
+
+    /*sizes*/
+    .size_chart {
+        float: right;
+    }
+
+    .select_size {
+        margin: 20px 0 20px 15px;
+        font-family: Nexa-XBold;
+        font-size: 10px;
+    }
+
+    .select_size li {
+        display: inline-block;
+        margin: 10px 35px 10px 0;
+    }
+
+    .select_size li img {
+        position: absolute;
+        opacity: 0.0;
+        margin: -7px 0 0 -11px;
+    }
+
+    .select_size_radio {
+        position: absolute;
+        opacity: 0.0;
+        margin-left: -3px;
+        cursor: pointer;
+        height: 10px;
+        width: 10px;
+        z-index: 1000;
+    }
+
+    .sizes input[type=submit] {
+        background: #000;
+        border: none;
+        margin: 0 auto;
+        color: #fff;
+        font-family: Novecentowide-DemiBold;
+        font-size: 14px;
+        width: 275px;
+        height: 45px;
+        cursor: pointer;
+    }
+
+    .add_to_wishlist {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    /*colors*/
+    .colors span {
+        margin: 10px 0;
+    }
+
+    .colors ul {
+        margin: 15px 2px;
+    }
+
+    .colors ul li {
+        display: inline-block;
+        margin: 1px;
+    }
+
+    .colors ul li  img{
+        width: 64px;
+    }
+
+    /*details block*/
+    .details_block {
+        width: 280px;
+    }
+
+    .details {
+        border-top: 1px solid #000;
+        clear: both;
+        padding: 15px 0;
+    }
+
+    .list_slide_button {
+        font-family: Novecentowide-Medium;
+        font-size: 20px;
+        cursor: pointer;
+        float: right;
+        margin: 0 10px 0 0;
+    }
+
+    .details_content {
+        display: none;
+        text-align: justify;
+        margin: 10px 0;
+    }
+
+    /*rating block*/
+    .rating_block {
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        padding: 15px 0;
+    }
+
+    .overall_rating {
+        float: left;
+    }
+
+    .rating_block ul {
+        float: left;
+        margin: 2px 0 0 30px ;
+    }
+
+    .rating_block ul li {
+        display: inline-block;
+        width: 12px;
+        height: 13px;
+        background: url("../images/rating_star.gif")no-repeat;
+    }
+
+    .rating {
+        width: 12px;
+        height: 13px;
+        cursor: pointer;
+        opacity: 0.0;
+        position: relative;
+        top: -3px;
+        left: -5px;
+    }
+
+    .rate_value {
+        float: right;
+        color: #b5b5b5;
+        font-family: NexaRegular;
+        font-size: 13px;
+        margin: 2px 10px 0 0;
+    }
+
+    .review {
+        margin-top: 30px;
+    }
+
+    .write_review {
+        float: right;
+    }
+
+
+    /*similar product*/
+    .similar_product {
+        margin-top: 80px;
+    }
+
+    .similar_title {
+        font-family: Novecentowide-Medium;
+        font-size: 16px;
+        margin-left: 50px;
+    }
+
+    .similar_product ul li {
+        display: inline-block;
+        margin: 55px 50px 0 50px;
+    }
+
+    .reviews {
+        margin-top: 80px;
+    }
+
+    /*footer
+    --------------------------------------------------*/
+    .footer_logo {
+        width: 47px;
+        height: 49px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #333333;
+        margin: 53px auto 0;
+    }
+
+    .footer_social_links {
+        width: 400px;
+        margin: 28px auto;
+    }
+
+    .footer_social_links li {
+        float: left;
+        margin: 0 20px;
+    }
+
+    /*footer navigation*/
+    .footer_navigation {
+        margin: 28px 0 28px 100px;
+    }
+
+    .footer_navigation li {
+        float: left;
+        margin: 0 14px;
+    }
+
+    .footer_turk_logo {
+        width: 72px;
+        margin: 28px auto;
+    }
+
+    .copyrights {
+        font-family: Novecentowide-Normal;
+        font-size: 10px;
+        text-align: center;
+        margin: 25px auto 50px;
+    }
+
+}/*end media queries 1280px*/
+
+/*styles for tablets min 768px
+--------------------------------------------------*/
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+
+    a {
+        color: #231f20;
+        text-decoration: none;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    p {
+        font-family: Nexa-Light;
+        font-size: 13px;
+        color: #040404;
+    }
+
+    img {
+        border: none;
+    }
+
+    .info_tab {
+        font-family: NexaRegular;
+        font-size: 12px;
+        color: #000;
+    }
+
+    .link_tab {
+        font-family: Novecentowide-DemiBold;
+        font-size: 12px;
+        color: #000;
+    }
+
+    .link_tab a {
+        font-weight: normal;
+        border-bottom: 1px solid #000;
+    }
+
+    .link_tab a:hover {
+        border-bottom: 1px solid #000;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .wrapper {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+
+/*header
+--------------------------------------------------*/
+
+    .header {
+        width: 768px;
+        height: 141px;
+    }
+
+    .menu_mobile {
+        display: none;
+    }
+
+    .header_mr_turk_logo {
+        margin: 25px 0 0 10px;
+        float: left;
+    }
+
+    .header_trina_turk_logo {
+        margin: 32px 0 0 170px;
+        float: left;
+        width: 278px;
+    }
+
+    .account {
+        float: right;
+        margin: 25px 10px 0 0;
+    }
+
+    .account span {
+        padding-left: 28px;
+    }
+
+    .user_mobile {
+        display: none;
+    }
+
+    /*header navigation*/
+    .header_navigation {
+        margin: 33px 0 0 30px;
+        position: absolute;
+        width: 810px;
+    }
+
+    .header_navigation li {
+        float: left;
+        padding-right: 35px;
+    }
+
+    /*content
+    --------------------------------------------------*/
+    /*product*/
+    .product {
+        width: 748px;
+        margin: 0 auto;
+    }
+
+    /*product images*/
+    .product_images {
+        width: 490px;
+        float: left;
+    }
+
+    .product_small_images {
+        margin: 28px 0;
+        float: left;
+    }
+
+    .product_small_images li {
+        margin-top: 10px;
+    }
+
+    .product_small_images li img{
+        width: 45px;
+    }
+
+    /*.product_image*/
+    .product_image {
+        margin-left: 20px;
+        width: 364px;
+    }
+
+    /*product info*/
+    .product_info {
+        width: 258px;
+        float: right;
+    }
+
+    .name_price {
+        margin: 5px 0;
+    }
+
+    .product_name {
+        font-family: Novecentowide-Medium;
+        font-size: 15px;
+    }
+
+    .product_short_description {
+        font-family: NexaRegular;
+        font-size: 10px;
+    }
+
+    .product_price {
+        font-family: Novecentowide-Medium;
+        font-size: 15px;
+        position: relative;
+        top: 15px;
+    }
+
+    /*sizes*/
+
+    .sizes {
+        position: relative;
+        top: 20px;
+    }
+
+    .size_chart {
+        float: right;
+    }
+
+    .select_size {
+        margin: 20px 0 20px 15px;
+        font-family: Nexa-XBold;
+        font-size: 10px;
+    }
+
+    .select_size li {
+        display: inline-block;
+        margin: 10px 35px 10px 0;
+        cursor: pointer;
+    }
+
+    .select_size li img {
+        position: absolute;
+        opacity: 0.0;
+        margin: -7px 0 0 -11px;
+    }
+
+    .select_size_radio {
+        position: absolute;
+        opacity: 0.0;
+        margin-left: -3px;
+        cursor: pointer;
+        height: 10px;
+        width: 10px;
+        z-index: 1000;
+    }
+
+    .sizes input[type=submit] {
+        background: #000;
+        border: none;
+        margin: 0 auto;
+        color: #fff;
+        font-family: Novecentowide-DemiBold;
+        font-size: 14px;
+        width: 256px;
+        height: 45px;
+        cursor: pointer;
+    }
+
+    .add_to_wishlist {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    /*colors*/
+    .colors {
+        margin: 40px 0;
+    }
+
+    .colors ul {
+        margin: 15px 2px;
+    }
+
+    .colors ul li {
+        display: inline-block;
+        margin: 1px 8px;
+    }
+
+    .colors ul li  img{
+        width: 45px;
+    }
+
+    /*details block*/
+    .details_block {
+        width: 258px;
+    }
+
+    .details {
+        border-top: 1px solid #000;
+        clear: both;
+        padding: 15px 0;
+    }
+
+    .list_slide_button {
+        font-family: Novecentowide-Medium;
+        font-size: 20px;
+        cursor: pointer;
+        float: right;
+        margin: 0 10px 0 0;
+    }
+
+    .details_content {
+        display: none;
+        text-align: justify;
+        margin: 10px 0;
+    }
+
+    /*rating block*/
+    .rating_block {
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        padding: 15px 0;
+    }
+
+    .overall_rating {
+        float: left;
+    }
+
+    .rating_block ul {
+        float: left;
+        margin: 2px 0 0 30px ;
+    }
+
+    .rating_block ul li {
+        display: inline-block;
+        width: 12px;
+        height: 13px;
+        background: url("../images/rating_star.gif")no-repeat;
+    }
+
+    .rating {
+        width: 12px;
+        height: 13px;
+        cursor: pointer;
+        opacity: 0.0;
+        position: relative;
+        top: -3px;
+        left: -5px;
+    }
+
+    .rate_value {
+        float: right;
+        color: #b5b5b5;
+        font-family: NexaRegular;
+        font-size: 13px;
+        margin: 2px 10px 0 0;
+    }
+
+    .review {
+        margin-top: 30px;
+    }
+
+    .write_review {
+        float: right;
+    }
+
+
+    /*similar product*/
+    .similar_product {
+        margin-top: 65px;
+    }
+
+    .similar_title {
+        font-family: Novecentowide-Medium;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .similar_product ul li {
+        display: inline-block;
+        margin: 55px 8px 0 10px;
+    }
+
+    .similar_product ul li img {
+        width: 235px;
+    }
+
+    .reviews {
+        margin: 80px auto 0;
+        width: 748px;
+    }
+
+    /*footer
+--------------------------------------------------*/
+    .footer_logo {
+        width: 47px;
+        height: 49px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #333333;
+        margin: 53px auto 0;
+    }
+
+    .footer_social_links {
+        width: 400px;
+        margin: 28px auto;
+    }
+
+    .footer_social_links li {
+        float: left;
+        margin: 0 20px;
+    }
+
+    /*footer navigation*/
+    .footer_navigation {
+        width: 700px;
+        margin: 28px auto;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .footer_navigation li {
+        display: inline-block;
+        margin: 10px 14px;
+    }
+
+    .footer_turk_logo {
+        width: 72px;
+        margin: 28px auto;
+    }
+
+    .copyrights {
+        font-family: Novecentowide-Normal;
+        font-size: 10px;
+        text-align: center;
+        margin: 25px auto 50px;
+    }
+
+}/*end media queries 768px*/
+
+/*styles for tablets min 320px
+--------------------------------------------------*/
+
+@media screen and (min-width: 1px) and (max-width: 768px) {
+
+    a {
+        color: #231f20;
+        text-decoration: none;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    p {
+        font-family: Nexa-Light;
+        font-size: 13px;
+        color: #040404;
+    }
+
+    img {
+        border: none;
+    }
+
+    .info_tab {
+        font-family: NexaRegular;
+        font-size: 12px;
+        color: #000;
+    }
+
+    .link_tab {
+        font-family: Novecentowide-DemiBold;
+        font-size: 12px;
+        color: #000;
+    }
+
+    .link_tab a {
+        font-weight: normal;
+        border-bottom: 1px solid #000;
+    }
+
+    .link_tab a:hover {
+        border-bottom: 1px solid #000;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .wrapper {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+
+    /*header
+    --------------------------------------------------*/
+
+    .header {
+        width: 320px;
+        height: 50px;
+    }
+
+    .menu_mobile {
+        float: left;
+        margin: 13px 0 0 10px;
+        cursor: pointer;
+    }
+
+    .header_mr_turk_logo, .user_login, .bag {
+        display: none;
+    }
+
+    .header_trina_turk_logo {
+        margin: 12px 0 0 35px;
+        float: left;
+        width: 173px;
+    }
+
+    .account {
+        float: right;
+        margin: 10px 10px 0 0;
+        cursor: pointer;
+    }
+
+    .user_mobile {
+        font-size: 12px;
+    }
+
+    .user_mobile a:hover {
+        text-decoration: none;
+    }
+
+    .bag_mobile {
+        padding-right: 5px;
+    }
+
+    .bag_product_count_mobile {
+        margin-top: -3px;
+    }
+
+    /*header navigation*/
+
+    .nav_block {
+        background: #fff;
+        border: 1px solid #999;
+        padding: 10px;
+        width: 240px;
+        z-index: 10000;
+        position: relative;
+        top: 1px;
+        left: 30px;
+        display: none;
+    }
+
+    .header_navigation li {
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .header_navigation li a {
+        text-align: center;
+    }
+
+    /*content
+    --------------------------------------------------*/
+    /*product*/
+    .product {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    /*product images*/
+    .product_images {
+        width: 220px;
+        margin: 0 auto;
+    }
+
+    .product_small_images {
+        position: absolute;
+        top: 490px;
+        margin: 0;
+        width: 220px;
+    }
+
+    .product_small_images li {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    .product_small_images li img{
+        width: 55px;
+    }
+
+    /*.product_image*/
+    .product_image {
+        margin: 90px 0 0 0;
+        width: 220px;
+        position: relative;
+    }
+
+    /*product info*/
+    .product_info {
+        width: 300px;
+    }
+
+    .name_price {
+        position: absolute;
+        margin: -415px 0;
+        text-align: center;
+        width: 300px;
+    }
+
+    .product_name {
+        font-family: Novecentowide-Medium;
+        font-size: 15px;
+    }
+
+    .product_short_description {
+        font-family: NexaRegular;
+        font-size: 10px;
+    }
+
+    .product_price {
+        font-family: Novecentowide-Medium;
+        font-size: 15px;
+        position: relative;
+        top: 15px;
+    }
+
+    /*sizes*/
+
+    .sizes {
+        position: relative;
+        top: 130px;
+    }
+
+    .size_chart {
+        float: right;
+    }
+
+    .select_size {
+        margin: 20px 0;
+        font-family: Nexa-XBold;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .select_size li {
+        display: inline-block;
+        margin: 10px 35px 10px 0;
+        cursor: pointer;
+    }
+
+    .select_size li img {
+        position: absolute;
+        opacity: 0.0;
+        margin: -7px 0 0 -11px;
+    }
+
+    .select_size_radio {
+        position: absolute;
+        opacity: 0.0;
+        margin-left: -3px;
+        cursor: pointer;
+        height: 10px;
+        width: 10px;
+        z-index: 1000;
+    }
+
+    .sizes input[type=submit] {
+        background: #000;
+        border: none;
+        margin: 0 auto;
+        color: #fff;
+        font-family: Novecentowide-DemiBold;
+        font-size: 14px;
+        width: 300px;
+        height: 45px;
+        cursor: pointer;
+    }
+
+    .add_to_wishlist {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    /*colors*/
+    .colors {
+        display: none;
+    }
+
+    /*details block*/
+    .details_block {
+        width: 300px;
+        margin-top: 160px;
+    }
+
+    .details {
+        border-top: 1px solid #000;
+        clear: both;
+        padding: 15px 0;
+    }
+
+    .list_slide_button {
+        font-family: Novecentowide-Medium;
+        font-size: 20px;
+        cursor: pointer;
+        float: right;
+        margin: 0 10px 0 0;
+    }
+
+    .details_content {
+        display: none;
+        text-align: justify;
+        margin: 10px 0;
+    }
+
+    /*rating block*/
+    .rating_block {
+        border-top: 1px solid #000;
+        padding: 15px 0;
+    }
+
+    .overall_rating {
+        float: left;
+    }
+
+    .rating_block ul {
+        float: left;
+        margin: 2px 0 0 80px ;
+    }
+
+    .rating_block ul li {
+        display: inline-block;
+        width: 12px;
+        height: 13px;
+        background: url("../images/rating_star.gif")no-repeat;
+    }
+
+    .rating {
+        width: 12px;
+        height: 13px;
+        cursor: pointer;
+        opacity: 0.0;
+        position: relative;
+        top: -3px;
+        left: -5px;
+    }
+
+    .rate_value {
+        float: right;
+        color: #b5b5b5;
+        font-family: NexaRegular;
+        font-size: 13px;
+        margin: 2px 10px 0 0;
+    }
+
+    .review {
+        margin-top: 5px;
+    }
+
+    .write_review {
+        float: right;
+    }
+
+
+    /*similar product*/
+    .similar_product {
+        margin-top: 50px;
+    }
+
+    .similar_title {
+        font-family: Novecentowide-Medium;
+        font-size: 16px;
+        margin-left: 13px;
+    }
+
+    .similar_product ul li {
+        display: inline-block;
+        margin: 20px 13px 0 13px;
+    }
+
+    .similar_product ul li img {
+        width: 78px;
+    }
+
+    .reviews {
+        margin: 80px auto 0;
+        width: 300px;
+    }
+
+    /*footer
+--------------------------------------------------*/
+    .footer_logo {
+        width: 47px;
+        height: 49px;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #333333;
+        margin: 53px auto 0;
+    }
+
+    .footer_social_links {
+        margin: 30px 0 30px 15px;
+    }
+
+    .footer_social_links li {
+        float: left;
+        margin: 0 15px;
+    }
+
+    .footer_social_links li img {
+        width: 17px;
+    }
+
+    /*footer navigation*/
+    .footer_navigation {
+        margin: 28px auto;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .footer_navigation li {
+        margin: 10px 14px;
+    }
+
+    .footer_turk_logo {
+        width: 72px;
+        margin: 28px auto;
+    }
+
+    .copyrights {
+        font-family: Novecentowide-Normal;
+        font-size: 10px;
+        text-align: center;
+        margin: 25px auto 50px;
+    }
+
+}/*end media queries 320px*/

@@ -60,7 +60,9 @@
                         <li><img class="selectable_small_images" src="images/product/product_small_image.gif" alt="product small"/></li>
                         <li><img class="selectable_small_images" src="images/product/product_small_image.gif" alt="product small"/></li>
                     </ul>
-                    <img class="product_image" src="images/product/product_main_image.gif" alt="product image"/>
+                    <div class="product_image_block">
+                        <img class="product_image" src="images/product/product_main_image.gif" alt="product image"/>
+                    </div>
                 </div>
                 <!--end product images-->
 
@@ -127,7 +129,7 @@
                                     <span>14</span>
                                 </li>
                             </ul>
-                            <input type="submit" name="add to bag" value="add to bag"/>
+                            <input type="submit" name="add to bag button" value="add to bag"/>
                             <div class="add_to_wishlist">
                                 <span class="link_tab"><a href="#">add to wishlist</a></span>
                             </div>
@@ -150,7 +152,7 @@
                     <!--details block-->
                     <div class="details_block">
                         <div class="details">
-                            <span class="link_tab details_description">details & fit</span>
+                            <span class="link_tab list_expand">details & fit</span>
                             <span class="list_slide_button">+</span>
                             <div class="details_content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
@@ -162,7 +164,7 @@
                             </div>
                         </div>
                         <div class="details">
-                            <span class="link_tab">fabric & care</span>
+                            <span class="link_tab list_expand">fabric & care</span>
                             <span class="list_slide_button">+</span>
                             <div class="details_content">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
@@ -174,22 +176,17 @@
                             </div>
                         </div>
                         <div class="rating_block">
-                            <form action="#" method="get">
                                 <span class="info_tab overall_rating">overall rating:</span>
-                                <ul>
-                                    <li><input class="rating" type="radio" name="rating" value="1"/></li>
-                                    <li><input class="rating" type="radio" name="rating" value="2"/></li>
-                                    <li><input class="rating" type="radio" name="rating" value="3"/></li>
-                                    <li><input class="rating" type="radio" name="rating" value="4"/></li>
-                                    <li><input class="rating" type="radio" name="rating" value="5"/></li>
-                                </ul>
-                                <span class="rate_value">0/5</span>
+                                    <div class="rating">
+                                        <div class="rating_empty"></div>
+                                        <div class="rating_full" style="width:70%"></div>
+                                    </div>
+                                <span class="rate_value"><span class="actual_rating"></span>/5</span>
                                 <div class="clear"></div><!--clearing float-->
                                 <div class="review">
                                     <span class="link_tab read_review"><a href="#">read reviews</a></span>
                                     <span class="link_tab write_review"><a href="#">write a review</a></span>
                                 </div>
-                            </form>
                         </div>
                     </div>
                     <!--end details block-->
@@ -225,7 +222,7 @@
             <!--reviews-->
             <div class="reviews">
                 <div class="details">
-                    <span class="link_tab details_description">reviews</span>
+                    <span class="link_tab list_expand">reviews</span>
                     <img class="list_slide_button" src="images/slide_arrow.gif" alt="arrow" />
                     <div class="details_content">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt

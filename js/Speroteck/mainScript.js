@@ -21,28 +21,19 @@
         /**
          * description slide script
          */
-        $('.list_slide_button').each(function(){
-            $(this).click(function(){
-                $(this).next().slideToggle(1000);
-            });
+        $('.list_expand').click(function(){
+            $(this).next().next().slideToggle(1000);
         });
 
-        /**
-         * rating radio button script
-         */
-            $(".rating").change(function (){
-                $(".rating").parent().css("background-position", "right top");
-                $(this).parent().css("background-position", "right bottom");
-            });
-
+        $('.list_slide_button').click(function(){
+            $(this).next().slideToggle(1000);
+        });
 
         /**
          * rating value script
          */
-            $(".rating").change(function(){
-                var getvalue = $(this).attr('value');
-                $(".rate_value").html(getvalue + "/5");
-            });
+            var value = (((($('.rating_full').width() / 70) * 100)*5) / 100);
+            $(".actual_rating").html(value.toFixed(1));
 
         /**
          * select size script
@@ -62,7 +53,7 @@
         /**
          * fade script on small product images
          */
-        $('.selectable_small_images').click(function(){
+        $('.selectable_small_images').hover(function(){
             $('.selectable_small_images').css('opacity', 0.5);
             $(this).css('opacity', 1.0);
         });
@@ -70,7 +61,7 @@
         /**
          * fade script on select color images
          */
-        $('.selectable_color').click(function(){
+        $('.selectable_color').hover(function(){
             $('.selectable_color').css('opacity', 0.5);
             $(this).css('opacity', 1.0);
         });
@@ -78,7 +69,7 @@
         /**
          * fade script on select similar product images
          */
-        $('.selectable_similar').click(function(){
+        $('.selectable_similar').hover(function(){
             $('.selectable_similar').css('opacity', 0.5);
             $(this).css('opacity', 1.0);
         });
